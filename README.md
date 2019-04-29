@@ -2,6 +2,10 @@
 
 This repository contains Alcon related project code and files.
 
+# habitat-packages
+
+This folder contains Habitat packages for Alcon applications.
+
 ## License
 
 ```
