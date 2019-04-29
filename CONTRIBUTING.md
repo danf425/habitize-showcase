@@ -1,3 +1,4 @@
-# Contributing to PROJECT_NAME
+# Contributing to Alcon
 
-Provide full instructions on how a new user can contribute to your project here.
+Feel free to come chat in Slack #customers-alcon to see how you can
+contribute.

@@ -1,6 +1,8 @@
-# Alcon
+# Habitat Packages
 
-This repository contains Alcon related project code and files.
+When adding an application for Alcon in this project, create a folder for the
+application to contain source code, installation files, etc.  Plus add a
+`habitat` folder within application folder to hold the Habitat plan.
 
 ## License
 
