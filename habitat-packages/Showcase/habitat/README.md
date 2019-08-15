@@ -1,6 +1,6 @@
-# hab_IBM_iAccess_7dot1
+# Showcase
 
-Brief description of hab_IBM_iAccess_7dot1
+Brief description of Showcase
 
 ***IGNORE THE REST OF THIS. ITS JUST BOILER PLATEE***
 
