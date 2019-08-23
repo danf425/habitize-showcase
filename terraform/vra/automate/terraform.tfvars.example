@@ -1,0 +1,4 @@
+username="yourusername"
+password="yourpassword"
+host="https://vra.success.chef.co"
+tenant="vsphere.local"
