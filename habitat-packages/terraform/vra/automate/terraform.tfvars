@@ -1,4 +1,4 @@
-username="dmontanez"
-password="Success1!"
+username="someusername"
+password="somepassword"
 host="https://vra.success.chef.co"
 tenant="vsphere.local"
