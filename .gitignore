@@ -15,6 +15,7 @@ terraform.tfstate*
 *.un~
 attributes.env
 automate-credentials*.toml
+*terraform.log
 
 # Bundler
 Gemfile.lock
