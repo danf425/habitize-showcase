@@ -1,0 +1,932 @@
+2019-08-26T09:28:18.125-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:43:32.975-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:44:11.556-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:45:06.571-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:49:42.832-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:49:47.386-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:49:50.977-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:49:50.982-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T09:49:50.982-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {CentOS 7.0 x64      900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T09:49:51.569-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:49:52.511-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T09:53:40.314-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:53:42.46-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:53:42.465-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T09:53:42.465-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos76      900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T09:53:42.995-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:53:43.472-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T09:55:26.313-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:55:29.17-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:55:29.175-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T09:55:29.175-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ { centos76     900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T09:55:30.002-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:55:30.898-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/centos76 
+ The response is: 400 
+2019-08-26T09:56:22.66-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:56:24.569-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:56:24.574-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T09:56:24.574-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos76      900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T09:56:25.139-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:56:25.625-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T09:56:46.458-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:56:48.364-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:56:48.366-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T09:56:48.366-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {CentosOS      900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T09:56:48.969-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T09:56:49.444-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:41:38.738-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:41:42.35-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:41:42.353-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T10:41:42.353-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos  Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T10:41:42.898-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:41:43.524-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:45:17.456-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:45:18.036-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:45:24.505-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:45:24.508-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T10:45:24.508-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T10:45:25.065-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:45:25.846-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:45:26.385-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:45:26.929-04:00 vra7_client.go:50 DoRequest ▶ INFO 009[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:45:26.929-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 00a[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T10:45:27.459-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:45:28.687-04:00 vra7_client.go:50 DoRequest ▶ INFO 00c[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T10:45:28.688-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00d[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T10:45:28.688-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00e[0m Checking if the terraform config file is valid
+2019-08-26T10:45:28.688-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00f[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+[31m2019-08-26T10:45:28.688-04:00 resource_vra7_deployment.go:485 checkResourceConfigValidity ▶ ERRO 010[0m The resource_configuration in the config file has invalid component name(s): Linux.storage, Linux.cpu, Linux.memory 
+2019-08-26T10:45:57.266-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:45:58.945-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:46:19.026-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:46:24.616-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:46:27.817-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:46:27.82-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T10:46:27.82-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ {CentOS 76  Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T10:46:28.506-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:46:29.137-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:46:29.672-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:46:30.159-04:00 vra7_client.go:50 DoRequest ▶ INFO 009[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:47:05.616-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:47:06.156-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:47:08.559-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:47:08.562-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T10:47:08.562-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ { centos76 Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T10:47:09.097-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:47:09.691-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/centos76 
+ The response is: 400 
+2019-08-26T10:48:18.277-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:48:18.844-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:48:21.028-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:48:21.031-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T10:48:21.031-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ {CentosOS  Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T10:48:21.561-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:48:22.051-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:48:22.596-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:48:23.076-04:00 vra7_client.go:50 DoRequest ▶ INFO 009[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:49:23.874-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:49:24.42-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:49:27.261-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:49:27.264-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T10:49:27.264-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ { centos76 Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T10:49:27.792-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:49:28.269-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/centos76 
+ The response is: 400 
+2019-08-26T10:50:13.188-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:50:13.755-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:50:15.754-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:50:15.757-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T10:50:15.757-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ {CentosOS centos76 Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T10:50:16.29-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:50:16.792-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:50:17.332-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:50:17.814-04:00 vra7_client.go:50 DoRequest ▶ INFO 009[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:50:38.885-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:50:39.552-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:50:42.079-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:50:42.081-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T10:50:42.081-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ {CentOS 76 centos76 Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T10:50:42.628-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:50:43.121-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:50:43.661-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:50:44.146-04:00 vra7_client.go:50 DoRequest ▶ INFO 009[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:51:04.955-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:51:05.525-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:51:11.797-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:51:11.799-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T10:51:11.799-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ {CentOS 76 centos76 Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T10:51:12.331-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:51:12.817-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:51:13.35-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:51:13.903-04:00 vra7_client.go:50 DoRequest ▶ INFO 009[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T10:52:08.711-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:52:09.244-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:52:11.332-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:52:11.334-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T10:52:11.334-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ { CentosOS Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T10:52:11.863-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:52:12.369-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/CentosOS 
+ The response is: 400 
+2019-08-26T10:53:59.787-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:55:14.638-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:55:16.058-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:55:16.06-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T10:55:16.06-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ { CentosOS Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T10:55:16.589-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:55:17.097-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/CentosOS 
+ The response is: 400 
+2019-08-26T10:55:25.622-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:55:26.368-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:55:28.376-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:55:28.378-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T10:55:28.378-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ { CentOS Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T10:55:28.96-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:55:29.42-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/CentOS 
+ The response is: 400 
+2019-08-26T10:55:36.764-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:55:37.306-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:55:40.028-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:55:40.03-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T10:55:40.03-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ { centos76 Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T10:55:40.56-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T10:55:41.018-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/centos76 
+ The response is: 400 
+2019-08-26T11:04:53.515-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:04:54.073-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:04:59.917-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:04:59.923-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T11:04:59.923-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T11:05:00.873-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:05:01.855-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:05:02.614-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:05:03.099-04:00 vra7_client.go:50 DoRequest ▶ INFO 009[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:05:03.1-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 00a[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T11:05:03.652-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:05:04.466-04:00 vra7_client.go:50 DoRequest ▶ INFO 00c[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T11:05:04.467-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00d[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:05:04.468-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00e[0m Checking if the terraform config file is valid
+2019-08-26T11:05:04.468-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00f[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+[31m2019-08-26T11:05:04.468-04:00 resource_vra7_deployment.go:485 checkResourceConfigValidity ▶ ERRO 010[0m The resource_configuration in the config file has invalid component name(s): Linux.memory, Linux.cpu, Linux.storage 
+2019-08-26T11:05:50.127-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:05:50.664-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:05:53.848-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:05:53.852-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T11:05:53.852-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2 Linux.memory:2048 Linux.storage:40]} 
+2019-08-26T11:05:54.478-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:05:55.077-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:05:55.648-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:05:56.129-04:00 vra7_client.go:50 DoRequest ▶ INFO 009[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:05:56.13-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 00a[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T11:05:56.803-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:05:57.481-04:00 vra7_client.go:50 DoRequest ▶ INFO 00c[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T11:05:57.482-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00d[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:05:57.482-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00e[0m Checking if the terraform config file is valid
+2019-08-26T11:05:57.482-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00f[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+[31m2019-08-26T11:05:57.482-04:00 resource_vra7_deployment.go:485 checkResourceConfigValidity ▶ ERRO 010[0m The resource_configuration in the config file has invalid component name(s): Linux.storage, Linux.memory, Linux.cpu 
+2019-08-26T11:06:24.454-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:06:25.007-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:06:26.363-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:06:26.367-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T11:06:26.368-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[machine_automate.cpu:2 machine_automate.memory:2048 machine_automate.storage:40]} 
+2019-08-26T11:06:26.903-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:06:27.437-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:06:28.011-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:06:28.497-04:00 vra7_client.go:50 DoRequest ▶ INFO 009[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:06:28.498-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 00a[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T11:06:29.032-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:06:29.693-04:00 vra7_client.go:50 DoRequest ▶ INFO 00c[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T11:06:29.694-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00d[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:06:29.694-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00e[0m Checking if the terraform config file is valid
+2019-08-26T11:06:29.694-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00f[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+[31m2019-08-26T11:06:29.694-04:00 resource_vra7_deployment.go:485 checkResourceConfigValidity ▶ ERRO 010[0m The resource_configuration in the config file has invalid component name(s): machine_automate.storage, machine_automate.memory, machine_automate.cpu 
+2019-08-26T11:06:49.876-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:06:50.512-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:06:52.861-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:06:52.865-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T11:06:52.866-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[]} 
+2019-08-26T11:06:53.399-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:06:53.88-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:06:54.513-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:06:54.992-04:00 vra7_client.go:50 DoRequest ▶ INFO 009[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:06:54.993-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 00a[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T11:06:55.815-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:06:56.551-04:00 vra7_client.go:50 DoRequest ▶ INFO 00c[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T11:06:56.552-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00d[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:06:56.552-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00e[0m Checking if the terraform config file is valid
+2019-08-26T11:06:56.552-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00f[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+2019-08-26T11:06:56.552-04:00 resource_vra7_deployment.go:156 resourceVra7DeploymentCreate ▶ INFO 010[0m createResource->key_list [CentosOS]
+2019-08-26T11:06:56.552-04:00 resource_vra7_deployment.go:187 resourceVra7DeploymentCreate ▶ INFO 011[0m Updated template - map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:06:57.087-04:00 vra7_client.go:50 DoRequest ▶ INFO 012[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:06:58.899-04:00 vra7_client.go:50 DoRequest ▶ INFO 013[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests 
+ The response is: 201 
+2019-08-26T11:06:58.9-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 014[0m Waiting for 30 seconds before checking request status.
+2019-08-26T11:07:29.614-04:00 vra7_client.go:50 DoRequest ▶ INFO 015[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:07:30.155-04:00 vra7_client.go:50 DoRequest ▶ INFO 016[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/111c4c5c-b23a-4335-aab1-baf2e15c182f 
+ The response is: 200 
+2019-08-26T11:07:30.157-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 017[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T11:07:30.157-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 018[0m The request is still IN PROGRESS.
+2019-08-26T11:07:30.157-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 019[0m Waiting for 30 seconds before checking request status.
+2019-08-26T11:08:00.777-04:00 vra7_client.go:50 DoRequest ▶ INFO 01a[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:08:01.455-04:00 vra7_client.go:50 DoRequest ▶ INFO 01b[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/111c4c5c-b23a-4335-aab1-baf2e15c182f 
+ The response is: 200 
+2019-08-26T11:08:01.456-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 01c[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T11:08:01.457-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 01d[0m The request is still IN PROGRESS.
+2019-08-26T11:08:01.457-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 01e[0m Waiting for 30 seconds before checking request status.
+2019-08-26T11:08:32.221-04:00 vra7_client.go:50 DoRequest ▶ INFO 01f[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:08:32.78-04:00 vra7_client.go:50 DoRequest ▶ INFO 020[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/111c4c5c-b23a-4335-aab1-baf2e15c182f 
+ The response is: 200 
+2019-08-26T11:08:32.781-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 021[0m Checking to see the status of the request. Status: FAILED.
+[31m2019-08-26T11:08:32.781-04:00 resource_vra7_deployment.go:586 waitForRequestCompletion ▶ ERRO 022[0m Request Failed with message The following component requests failed:
+CentosOS. Request failed: Machine WindowsServ0004: CloneVM :  Failed to connect to the endpoint. To validate that a secure connection can be established to this endpoint, go to the vSphere endpoint on the Endpoints page and click the Test Connection button..
+ 
+2019-08-26T11:09:19.741-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:09:20.285-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:09:20.788-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/111c4c5c-b23a-4335-aab1-baf2e15c182f/resourceViews 
+ The response is: 200 
+2019-08-26T11:09:45.633-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:09:46.205-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:09:46.676-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/111c4c5c-b23a-4335-aab1-baf2e15c182f/resourceViews 
+ The response is: 200 
+2019-08-26T11:10:31.142-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:10:31.725-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:10:32.201-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/111c4c5c-b23a-4335-aab1-baf2e15c182f/resourceViews 
+ The response is: 200 
+2019-08-26T11:10:47.69-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:10:48.262-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:10:48.785-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/111c4c5c-b23a-4335-aab1-baf2e15c182f/resourceViews 
+ The response is: 200 
+2019-08-26T11:10:58.915-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:11:02.725-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:11:02.727-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T11:11:02.727-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[Linux.cpu:1 Linux.memory:2048]} 
+2019-08-26T11:11:03.266-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:11:03.75-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:11:04.31-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:11:04.828-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:11:04.829-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 009[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T11:11:05.42-04:00 vra7_client.go:50 DoRequest ▶ INFO 00a[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:11:06.077-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T11:11:06.078-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00c[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:11:06.078-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00d[0m Checking if the terraform config file is valid
+2019-08-26T11:11:06.078-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00e[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+[31m2019-08-26T11:11:06.078-04:00 resource_vra7_deployment.go:485 checkResourceConfigValidity ▶ ERRO 00f[0m The resource_configuration in the config file has invalid component name(s): Linux.cpu, Linux.memory 
+2019-08-26T11:11:17.461-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:11:19.598-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:11:19.602-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T11:11:19.602-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[Linux.memory:2048]} 
+2019-08-26T11:11:20.13-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:11:20.697-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:11:21.25-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:11:21.741-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:11:21.741-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 009[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T11:11:22.415-04:00 vra7_client.go:50 DoRequest ▶ INFO 00a[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:11:23.118-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T11:11:23.119-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00c[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:11:23.12-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00d[0m Checking if the terraform config file is valid
+2019-08-26T11:11:23.12-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00e[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+[31m2019-08-26T11:11:23.12-04:00 resource_vra7_deployment.go:485 checkResourceConfigValidity ▶ ERRO 00f[0m The resource_configuration in the config file has invalid component name(s): Linux.memory 
+2019-08-26T11:11:56.113-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:11:58.5-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:11:58.504-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T11:11:58.504-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[Linux.cpu:2]} 
+2019-08-26T11:11:59.043-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:11:59.559-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:12:00.104-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:12:00.588-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:12:00.588-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 009[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T11:12:01.285-04:00 vra7_client.go:50 DoRequest ▶ INFO 00a[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:12:01.938-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T11:12:01.938-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00c[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:12:01.939-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00d[0m Checking if the terraform config file is valid
+2019-08-26T11:12:01.939-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00e[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+[31m2019-08-26T11:12:01.939-04:00 resource_vra7_deployment.go:485 checkResourceConfigValidity ▶ ERRO 00f[0m The resource_configuration in the config file has invalid component name(s): Linux.cpu 
+2019-08-26T11:12:15.274-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:12:17.738-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:12:17.74-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T11:12:17.74-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[Linux.cpu:1]} 
+2019-08-26T11:12:18.446-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:12:18.954-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:12:20.029-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:12:20.549-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:12:20.549-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 009[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T11:12:21.091-04:00 vra7_client.go:50 DoRequest ▶ INFO 00a[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:12:22.086-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T11:12:22.087-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00c[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:12:22.087-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00d[0m Checking if the terraform config file is valid
+2019-08-26T11:12:22.087-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00e[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+[31m2019-08-26T11:12:22.087-04:00 resource_vra7_deployment.go:485 checkResourceConfigValidity ▶ ERRO 00f[0m The resource_configuration in the config file has invalid component name(s): Linux.cpu 
+2019-08-26T11:12:38.002-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:12:40.578-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:12:40.581-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T11:12:40.582-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[Linux.cpu:1]} 
+2019-08-26T11:12:42.351-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:12:42.942-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:12:43.479-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:12:43.972-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:12:43.972-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 009[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T11:12:44.559-04:00 vra7_client.go:50 DoRequest ▶ INFO 00a[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:12:45.267-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T11:12:45.268-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00c[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:12:45.268-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00d[0m Checking if the terraform config file is valid
+2019-08-26T11:12:45.268-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00e[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+[31m2019-08-26T11:12:45.268-04:00 resource_vra7_deployment.go:485 checkResourceConfigValidity ▶ ERRO 00f[0m The resource_configuration in the config file has invalid component name(s): Linux.cpu 
+2019-08-26T11:13:15.636-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:13:16.184-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:13:19.039-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:13:19.042-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 004[0m Reading the provider configuration data.....
+2019-08-26T11:13:19.042-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 005[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[vSphereVM1.cpu:1]} 
+2019-08-26T11:13:19.596-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:13:20.201-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:13:20.794-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:13:21.292-04:00 vra7_client.go:50 DoRequest ▶ INFO 009[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:13:21.293-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 00a[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T11:13:21.832-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:13:22.521-04:00 vra7_client.go:50 DoRequest ▶ INFO 00c[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T11:13:22.522-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00d[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:13:22.522-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00e[0m Checking if the terraform config file is valid
+2019-08-26T11:13:22.523-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00f[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+[31m2019-08-26T11:13:22.523-04:00 resource_vra7_deployment.go:485 checkResourceConfigValidity ▶ ERRO 010[0m The resource_configuration in the config file has invalid component name(s): vSphereVM1.cpu 
+2019-08-26T11:14:16.553-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:14:19.534-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:14:19.538-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T11:14:19.538-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[Linux.memory:4096]} 
+2019-08-26T11:14:20.132-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:14:20.621-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:14:21.168-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:14:21.671-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:14:21.672-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 009[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T11:14:22.265-04:00 vra7_client.go:50 DoRequest ▶ INFO 00a[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:14:23.066-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T11:14:23.066-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00c[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:14:23.066-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00d[0m Checking if the terraform config file is valid
+2019-08-26T11:14:23.066-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00e[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+[31m2019-08-26T11:14:23.066-04:00 resource_vra7_deployment.go:485 checkResourceConfigValidity ▶ ERRO 00f[0m The resource_configuration in the config file has invalid component name(s): Linux.memory 
+2019-08-26T11:14:53.239-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:14:56.143-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:14:56.146-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T11:14:56.146-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[]} 
+2019-08-26T11:14:56.695-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:14:57.194-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:14:57.731-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:14:58.237-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:14:58.238-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 009[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T11:14:58.796-04:00 vra7_client.go:50 DoRequest ▶ INFO 00a[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:14:59.456-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T11:14:59.456-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00c[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:14:59.457-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00d[0m Checking if the terraform config file is valid
+2019-08-26T11:14:59.457-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00e[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+2019-08-26T11:14:59.457-04:00 resource_vra7_deployment.go:156 resourceVra7DeploymentCreate ▶ INFO 00f[0m createResource->key_list [CentosOS]
+2019-08-26T11:14:59.457-04:00 resource_vra7_deployment.go:187 resourceVra7DeploymentCreate ▶ INFO 010[0m Updated template - map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:15:00.177-04:00 vra7_client.go:50 DoRequest ▶ INFO 011[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:15:01.622-04:00 vra7_client.go:50 DoRequest ▶ INFO 012[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests 
+ The response is: 201 
+2019-08-26T11:15:01.623-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 013[0m Waiting for 30 seconds before checking request status.
+2019-08-26T11:15:32.442-04:00 vra7_client.go:50 DoRequest ▶ INFO 014[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:15:32.926-04:00 vra7_client.go:50 DoRequest ▶ INFO 015[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/c9ab1540-ec43-47b2-9616-7e7a32aa56ea 
+ The response is: 200 
+2019-08-26T11:15:32.927-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 016[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T11:15:32.927-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 017[0m The request is still IN PROGRESS.
+2019-08-26T11:15:32.927-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 018[0m Waiting for 30 seconds before checking request status.
+2019-08-26T11:16:04.107-04:00 vra7_client.go:50 DoRequest ▶ INFO 019[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:16:04.633-04:00 vra7_client.go:50 DoRequest ▶ INFO 01a[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/c9ab1540-ec43-47b2-9616-7e7a32aa56ea 
+ The response is: 200 
+2019-08-26T11:16:04.634-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 01b[0m Checking to see the status of the request. Status: FAILED.
+[31m2019-08-26T11:16:04.634-04:00 resource_vra7_deployment.go:586 waitForRequestCompletion ▶ ERRO 01c[0m Request Failed with message The following component requests failed:
+CentosOS. Request failed: Machine WindowsServ0005: CloneVM :  Failed to connect to the endpoint. To validate that a secure connection can be established to this endpoint, go to the vSphere endpoint on the Endpoints page and click the Test Connection button..
+ 
+2019-08-26T11:44:00.393-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:44:02.372-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:44:02.376-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T11:44:02.376-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[Linux.cpu:1 Linux.memory:4096]} 
+2019-08-26T11:44:02.942-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:44:03.545-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:44:04.085-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:44:04.574-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T11:44:04.574-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 009[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T11:44:05.2-04:00 vra7_client.go:50 DoRequest ▶ INFO 00a[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T11:44:06.221-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T11:44:06.221-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00c[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T11:44:06.221-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00d[0m Checking if the terraform config file is valid
+2019-08-26T11:44:06.221-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00e[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+[31m2019-08-26T11:44:06.222-04:00 resource_vra7_deployment.go:485 checkResourceConfigValidity ▶ ERRO 00f[0m The resource_configuration in the config file has invalid component name(s): Linux.memory, Linux.cpu 
+2019-08-26T14:03:35.55-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:03:37.8-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:03:37.804-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T14:03:37.805-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[Linux.cpu:1 Linux.memory:4096 Linux.storage:40]} 
+2019-08-26T14:03:38.377-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:03:38.964-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T14:03:39.545-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:03:40.044-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T14:03:40.044-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 009[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T14:03:40.629-04:00 vra7_client.go:50 DoRequest ▶ INFO 00a[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:03:41.453-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T14:03:41.453-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00c[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T14:03:41.454-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00d[0m Checking if the terraform config file is valid
+2019-08-26T14:03:41.454-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00e[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+[31m2019-08-26T14:03:41.454-04:00 resource_vra7_deployment.go:485 checkResourceConfigValidity ▶ ERRO 00f[0m The resource_configuration in the config file has invalid component name(s): Linux.cpu, Linux.storage, Linux.memory 
+2019-08-26T14:03:50.872-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:03:52.885-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:03:52.888-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T14:03:52.888-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[]} 
+2019-08-26T14:03:53.485-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:03:54.075-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T14:03:54.704-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:03:55.248-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T14:03:55.248-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 009[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T14:03:55.855-04:00 vra7_client.go:50 DoRequest ▶ INFO 00a[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:03:56.521-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T14:03:56.521-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00c[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T14:03:56.521-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00d[0m Checking if the terraform config file is valid
+2019-08-26T14:03:56.521-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00e[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+2019-08-26T14:03:56.521-04:00 resource_vra7_deployment.go:156 resourceVra7DeploymentCreate ▶ INFO 00f[0m createResource->key_list [CentosOS]
+2019-08-26T14:03:56.521-04:00 resource_vra7_deployment.go:187 resourceVra7DeploymentCreate ▶ INFO 010[0m Updated template - map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T14:03:57.079-04:00 vra7_client.go:50 DoRequest ▶ INFO 011[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:03:58.288-04:00 vra7_client.go:50 DoRequest ▶ INFO 012[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests 
+ The response is: 201 
+2019-08-26T14:03:58.289-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 013[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:04:28.914-04:00 vra7_client.go:50 DoRequest ▶ INFO 014[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:04:29.43-04:00 vra7_client.go:50 DoRequest ▶ INFO 015[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/bda40313-ee2a-4be2-a32e-6fe96b10586e 
+ The response is: 200 
+2019-08-26T14:04:29.431-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 016[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:04:29.431-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 017[0m The request is still IN PROGRESS.
+2019-08-26T14:04:29.431-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 018[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:05:00.011-04:00 vra7_client.go:50 DoRequest ▶ INFO 019[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:05:00.534-04:00 vra7_client.go:50 DoRequest ▶ INFO 01a[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/bda40313-ee2a-4be2-a32e-6fe96b10586e 
+ The response is: 200 
+2019-08-26T14:05:00.535-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 01b[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:05:00.535-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 01c[0m The request is still IN PROGRESS.
+2019-08-26T14:05:00.535-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 01d[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:05:31.095-04:00 vra7_client.go:50 DoRequest ▶ INFO 01e[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:05:31.638-04:00 vra7_client.go:50 DoRequest ▶ INFO 01f[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/bda40313-ee2a-4be2-a32e-6fe96b10586e 
+ The response is: 200 
+2019-08-26T14:05:31.638-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 020[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:05:31.638-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 021[0m The request is still IN PROGRESS.
+2019-08-26T14:05:31.638-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 022[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:06:02.232-04:00 vra7_client.go:50 DoRequest ▶ INFO 023[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:06:02.763-04:00 vra7_client.go:50 DoRequest ▶ INFO 024[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/bda40313-ee2a-4be2-a32e-6fe96b10586e 
+ The response is: 200 
+2019-08-26T14:06:02.763-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 025[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:06:02.763-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 026[0m The request is still IN PROGRESS.
+2019-08-26T14:06:02.763-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 027[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:06:33.331-04:00 vra7_client.go:50 DoRequest ▶ INFO 028[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:06:33.84-04:00 vra7_client.go:50 DoRequest ▶ INFO 029[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/bda40313-ee2a-4be2-a32e-6fe96b10586e 
+ The response is: 200 
+2019-08-26T14:06:33.841-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 02a[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:06:33.841-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 02b[0m The request is still IN PROGRESS.
+2019-08-26T14:06:33.841-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 02c[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:07:04.727-04:00 vra7_client.go:50 DoRequest ▶ INFO 02d[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:07:05.226-04:00 vra7_client.go:50 DoRequest ▶ INFO 02e[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/bda40313-ee2a-4be2-a32e-6fe96b10586e 
+ The response is: 200 
+2019-08-26T14:07:05.227-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 02f[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:07:05.227-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 030[0m The request is still IN PROGRESS.
+2019-08-26T14:07:05.227-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 031[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:07:35.844-04:00 vra7_client.go:50 DoRequest ▶ INFO 032[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:07:36.362-04:00 vra7_client.go:50 DoRequest ▶ INFO 033[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/bda40313-ee2a-4be2-a32e-6fe96b10586e 
+ The response is: 200 
+2019-08-26T14:07:36.363-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 034[0m Checking to see the status of the request. Status: SUCCESSFUL.
+2019-08-26T14:07:36.363-04:00 resource_vra7_deployment.go:583 waitForRequestCompletion ▶ INFO 035[0m Request is SUCCESSFUL.
+2019-08-26T14:07:36.994-04:00 vra7_client.go:50 DoRequest ▶ INFO 036[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:07:38.056-04:00 vra7_client.go:50 DoRequest ▶ INFO 037[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/bda40313-ee2a-4be2-a32e-6fe96b10586e/resourceViews 
+ The response is: 200 
+2019-08-26T14:07:38.058-04:00 resource_vra7_deployment.go:353 resourceVra7DeploymentRead ▶ INFO 038[0m The resource data map of the resource CentosOS is: 
+{2048 1  40 vSphere WindowsServ0010  2019-08-28T18:04:13.607Z Windows Services centos76 test-kitchen-reservation Virtual 4a1bbb51-1b20-474c-8e5c-488afbe5c92e 2019-08-27T18:04:13.607Z CentosOS true true true true true true true true true true true true}
+2019-08-26T14:38:06.57-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:38:07.179-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:38:08.463-04:00 vra7_client.go:50 DoRequest ▶ INFO 003[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/bda40313-ee2a-4be2-a32e-6fe96b10586e/resourceViews 
+ The response is: 200 
+2019-08-26T14:38:08.465-04:00 resource_vra7_deployment.go:353 resourceVra7DeploymentRead ▶ INFO 004[0m The resource data map of the resource CentosOS is: 
+{2048 1  40 vSphere WindowsServ0010  2019-08-28T18:04:13.607Z Windows Services centos76 test-kitchen-reservation Virtual 4a1bbb51-1b20-474c-8e5c-488afbe5c92e 2019-08-27T18:04:13.607Z CentosOS true true true true true true true true true true true true}
+2019-08-26T14:38:21.349-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:38:21.351-04:00 resource_vra7_deployment.go:394 resourceVra7DeploymentDelete ▶ INFO 006[0m Calling delete resource for the request id bda40313-ee2a-4be2-a32e-6fe96b10586e 
+2019-08-26T14:38:22.081-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:38:22.898-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/bda40313-ee2a-4be2-a32e-6fe96b10586e/resourceViews 
+ The response is: 200 
+2019-08-26T14:38:23.477-04:00 vra7_client.go:50 DoRequest ▶ INFO 009[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:38:24.233-04:00 vra7_client.go:50 DoRequest ▶ INFO 00a[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/bda40313-ee2a-4be2-a32e-6fe96b10586e/resources 
+ The response is: 200 
+2019-08-26T14:38:24.235-04:00 vra7_sdk.go:250 GetResourceActionTemplate ▶ INFO 00b[0m Call GET to fetch the reconfigure action template /catalog-service/api/consumer/resources/601b597d-8ec9-4ea5-b2a0-0402f2be5ec0/actions/d786e4f9-845a-4d9b-9e7d-da1e6cabfedf/requests/template 
+2019-08-26T14:38:24.879-04:00 vra7_client.go:50 DoRequest ▶ INFO 00c[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:38:25.573-04:00 vra7_client.go:50 DoRequest ▶ INFO 00d[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/resources/601b597d-8ec9-4ea5-b2a0-0402f2be5ec0/actions/d786e4f9-845a-4d9b-9e7d-da1e6cabfedf/requests/template 
+ The response is: 200 
+2019-08-26T14:38:26.121-04:00 vra7_client.go:50 DoRequest ▶ INFO 00e[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:38:26.862-04:00 vra7_client.go:50 DoRequest ▶ INFO 00f[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/resources/601b597d-8ec9-4ea5-b2a0-0402f2be5ec0/actions/d786e4f9-845a-4d9b-9e7d-da1e6cabfedf/requests 
+ The response is: 201 
+2019-08-26T14:38:26.863-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 010[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:38:57.419-04:00 vra7_client.go:50 DoRequest ▶ INFO 011[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:38:57.912-04:00 vra7_client.go:50 DoRequest ▶ INFO 012[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/76f5c6be-f7bd-4bae-a5ec-d72c2a44275c 
+ The response is: 200 
+2019-08-26T14:38:57.912-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 013[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:38:57.912-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 014[0m The request is still IN PROGRESS.
+2019-08-26T14:38:57.912-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 015[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:39:28.47-04:00 vra7_client.go:50 DoRequest ▶ INFO 016[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:39:28.955-04:00 vra7_client.go:50 DoRequest ▶ INFO 017[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/76f5c6be-f7bd-4bae-a5ec-d72c2a44275c 
+ The response is: 200 
+2019-08-26T14:39:28.956-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 018[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:39:28.956-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 019[0m The request is still IN PROGRESS.
+2019-08-26T14:39:28.956-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 01a[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:39:59.509-04:00 vra7_client.go:50 DoRequest ▶ INFO 01b[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:40:00.05-04:00 vra7_client.go:50 DoRequest ▶ INFO 01c[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/76f5c6be-f7bd-4bae-a5ec-d72c2a44275c 
+ The response is: 200 
+2019-08-26T14:40:00.05-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 01d[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:40:00.05-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 01e[0m The request is still IN PROGRESS.
+2019-08-26T14:40:00.05-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 01f[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:40:30.609-04:00 vra7_client.go:50 DoRequest ▶ INFO 020[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:40:31.096-04:00 vra7_client.go:50 DoRequest ▶ INFO 021[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/76f5c6be-f7bd-4bae-a5ec-d72c2a44275c 
+ The response is: 200 
+2019-08-26T14:40:31.096-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 022[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:40:31.097-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 023[0m The request is still IN PROGRESS.
+2019-08-26T14:40:31.097-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 024[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:41:01.647-04:00 vra7_client.go:50 DoRequest ▶ INFO 025[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:41:02.14-04:00 vra7_client.go:50 DoRequest ▶ INFO 026[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/76f5c6be-f7bd-4bae-a5ec-d72c2a44275c 
+ The response is: 200 
+2019-08-26T14:41:02.14-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 027[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:41:02.14-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 028[0m The request is still IN PROGRESS.
+2019-08-26T14:41:02.14-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 029[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:41:33.077-04:00 vra7_client.go:50 DoRequest ▶ INFO 02a[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:41:33.956-04:00 vra7_client.go:50 DoRequest ▶ INFO 02b[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/76f5c6be-f7bd-4bae-a5ec-d72c2a44275c 
+ The response is: 200 
+2019-08-26T14:41:33.956-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 02c[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:41:33.956-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 02d[0m The request is still IN PROGRESS.
+2019-08-26T14:41:33.956-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 02e[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:42:04.535-04:00 vra7_client.go:50 DoRequest ▶ INFO 02f[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:42:05.028-04:00 vra7_client.go:50 DoRequest ▶ INFO 030[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/76f5c6be-f7bd-4bae-a5ec-d72c2a44275c 
+ The response is: 200 
+2019-08-26T14:42:05.029-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 031[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:42:05.029-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 032[0m The request is still IN PROGRESS.
+2019-08-26T14:42:05.029-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 033[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:42:35.593-04:00 vra7_client.go:50 DoRequest ▶ INFO 034[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:42:36.127-04:00 vra7_client.go:50 DoRequest ▶ INFO 035[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/76f5c6be-f7bd-4bae-a5ec-d72c2a44275c 
+ The response is: 200 
+2019-08-26T14:42:36.128-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 036[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:42:36.128-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 037[0m The request is still IN PROGRESS.
+2019-08-26T14:42:36.128-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 038[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:43:06.674-04:00 vra7_client.go:50 DoRequest ▶ INFO 039[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:43:07.151-04:00 vra7_client.go:50 DoRequest ▶ INFO 03a[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/76f5c6be-f7bd-4bae-a5ec-d72c2a44275c 
+ The response is: 200 
+2019-08-26T14:43:07.152-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 03b[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:43:07.152-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 03c[0m The request is still IN PROGRESS.
+2019-08-26T14:43:07.152-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 03d[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:43:37.711-04:00 vra7_client.go:50 DoRequest ▶ INFO 03e[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:43:38.23-04:00 vra7_client.go:50 DoRequest ▶ INFO 03f[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/76f5c6be-f7bd-4bae-a5ec-d72c2a44275c 
+ The response is: 200 
+2019-08-26T14:43:38.23-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 040[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:43:38.23-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 041[0m The request is still IN PROGRESS.
+2019-08-26T14:43:38.23-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 042[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:44:06.604-04:00 vra7_client.go:50 DoRequest ▶ INFO 001[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:44:09.158-04:00 vra7_client.go:50 DoRequest ▶ INFO 002[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:44:09.16-04:00 resource_vra7_deployment.go:602 readProviderConfiguration ▶ INFO 003[0m Reading the provider configuration data.....
+2019-08-26T14:44:09.16-04:00 resource_vra7_deployment.go:616 readProviderConfiguration ▶ INFO 004[0m The values provided in the TF config file is: 
+ {centos76  Alcon Automate Instance for POC    900   map[] map[]} 
+2019-08-26T14:44:09.764-04:00 vra7_client.go:50 DoRequest ▶ INFO 005[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:44:10.248-04:00 vra7_client.go:50 DoRequest ▶ INFO 006[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T14:44:10.79-04:00 vra7_client.go:50 DoRequest ▶ INFO 007[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:44:11.292-04:00 vra7_client.go:50 DoRequest ▶ INFO 008[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItemViews?page=1 
+ The response is: 200 
+2019-08-26T14:44:11.292-04:00 resource_vra7_deployment.go:508 checkConfigValuesValidity ▶ INFO 009[0m The catalog item id provided in the config is 1d28642d-6105-4827-b161-b136b852aaa5
+2019-08-26T14:44:11.858-04:00 vra7_client.go:50 DoRequest ▶ INFO 00a[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:44:12.63-04:00 vra7_client.go:50 DoRequest ▶ INFO 00b[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests/template 
+ The response is: 200 
+2019-08-26T14:44:12.631-04:00 resource_vra7_deployment.go:540 checkConfigValuesValidity ▶ INFO 00c[0m The request template data corresponding to the catalog item 1d28642d-6105-4827-b161-b136b852aaa5 is: 
+ map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T14:44:12.631-04:00 resource_vra7_deployment.go:451 checkResourceConfigValidity ▶ INFO 00d[0m Checking if the terraform config file is valid
+2019-08-26T14:44:12.631-04:00 resource_vra7_deployment.go:460 checkResourceConfigValidity ▶ INFO 00e[0m The component name(s) in the blueprint corresponding to the catalog item: map[CentosOS:true]
+2019-08-26T14:44:12.631-04:00 resource_vra7_deployment.go:156 resourceVra7DeploymentCreate ▶ INFO 00f[0m createResource->key_list [CentosOS]
+2019-08-26T14:44:12.632-04:00 resource_vra7_deployment.go:187 resourceVra7DeploymentCreate ▶ INFO 010[0m Updated template - map[CentosOS:map[classId:Blueprint.Component.Declaration componentId:<nil> componentTypeId:com.vmware.csp.component.cafe.composition data:map[My.Custom.Property1:DefaultValue1 My.Custom.Property2:DefaultValue2 _cluster:1 _hasChildren:false cpu:1 datacenter_location:<nil> description:<nil> disks:[map[classId:Infrastructure.Compute.Machine.MachineDisk componentId:<nil> componentTypeId:com.vmware.csp.iaas.blueprint.service data:map[capacity:40 custom_properties:<nil> id:1.557460737055e+12 initial_location: is_clone:true label:Hard disk 1 storage_reservation_policy: userCreated:false volumeId:0] typeFilter:<nil>]] display_location:false guest_customization_specification:<nil> machine_prefix:<nil> max_network_adapters:-1 max_per_user:0 max_volumes:60 memory:2048 nics:<nil> os_arch:x86_64 os_distribution:<nil> os_type:Linux os_version:<nil> ovfAuthNeeded:false ovf_proxy_endpoint:<nil> ovf_url:<nil> ovf_url_pwd:<nil> ovf_url_username:<nil> ovf_use_proxy:false property_groups:<nil> reservation_policy:<nil> security_groups:[] security_tags:[] snapshot_name:<nil> source_machine_external_snapshot:<nil> source_machine_vmsnapshot:<nil> storage:40] typeFilter:centos76*CentosOS] _archiveDays:1 _leaseDays:1 _number_of_instances:1]
+2019-08-26T14:44:13.208-04:00 vra7_client.go:50 DoRequest ▶ INFO 011[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:44:14.303-04:00 vra7_client.go:50 DoRequest ▶ INFO 012[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/entitledCatalogItems/1d28642d-6105-4827-b161-b136b852aaa5/requests 
+ The response is: 201 
+2019-08-26T14:44:14.304-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 013[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:44:44.862-04:00 vra7_client.go:50 DoRequest ▶ INFO 014[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:44:45.34-04:00 vra7_client.go:50 DoRequest ▶ INFO 015[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/6487fb71-ed9c-48ed-a696-cfed1ac9a0b4 
+ The response is: 200 
+2019-08-26T14:44:45.341-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 016[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:44:45.341-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 017[0m The request is still IN PROGRESS.
+2019-08-26T14:44:45.341-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 018[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:45:15.889-04:00 vra7_client.go:50 DoRequest ▶ INFO 019[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:45:16.368-04:00 vra7_client.go:50 DoRequest ▶ INFO 01a[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/6487fb71-ed9c-48ed-a696-cfed1ac9a0b4 
+ The response is: 200 
+2019-08-26T14:45:16.368-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 01b[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:45:16.368-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 01c[0m The request is still IN PROGRESS.
+2019-08-26T14:45:16.368-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 01d[0m Waiting for 30 seconds before checking request status.
