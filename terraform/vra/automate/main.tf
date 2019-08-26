@@ -14,7 +14,7 @@ resource "vra7_deployment" "machine_automate" {
 ## newly created machine resource specifications
   resource_configuration = {
     #  Linux.cpu = "1"
-    #  Linux.memory = "4096"
+       Linux.memory = "4096"
     #  Linux.storage = "40"
   }
 

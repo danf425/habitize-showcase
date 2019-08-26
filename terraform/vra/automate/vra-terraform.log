@@ -930,3 +930,17 @@ CentosOS. Request failed: Machine WindowsServ0005: CloneVM :  Failed to connect 
 2019-08-26T14:45:16.368-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 01b[0m Checking to see the status of the request. Status: IN_PROGRESS.
 2019-08-26T14:45:16.368-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 01c[0m The request is still IN PROGRESS.
 2019-08-26T14:45:16.368-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 01d[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:45:46.923-04:00 vra7_client.go:50 DoRequest ▶ INFO 01e[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:45:47.407-04:00 vra7_client.go:50 DoRequest ▶ INFO 01f[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/6487fb71-ed9c-48ed-a696-cfed1ac9a0b4 
+ The response is: 200 
+2019-08-26T14:45:47.408-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 020[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:45:47.408-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 021[0m The request is still IN PROGRESS.
+2019-08-26T14:45:47.408-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 022[0m Waiting for 30 seconds before checking request status.
+2019-08-26T14:46:17.942-04:00 vra7_client.go:50 DoRequest ▶ INFO 023[0m Check the status of the request https://vra.success.chef.co/identity/api/tokens 
+ The response is: 200 
+2019-08-26T14:46:18.491-04:00 vra7_client.go:50 DoRequest ▶ INFO 024[0m Check the status of the request https://vra.success.chef.co/catalog-service/api/consumer/requests/6487fb71-ed9c-48ed-a696-cfed1ac9a0b4 
+ The response is: 200 
+2019-08-26T14:46:18.491-04:00 resource_vra7_deployment.go:581 waitForRequestCompletion ▶ INFO 025[0m Checking to see the status of the request. Status: IN_PROGRESS.
+2019-08-26T14:46:18.491-04:00 resource_vra7_deployment.go:589 waitForRequestCompletion ▶ INFO 026[0m The request is still IN PROGRESS.
+2019-08-26T14:46:18.491-04:00 resource_vra7_deployment.go:576 waitForRequestCompletion ▶ INFO 027[0m Waiting for 30 seconds before checking request status.
