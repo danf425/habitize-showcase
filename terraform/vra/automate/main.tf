@@ -13,23 +13,25 @@ resource "vra7_deployment" "machine_automate" {
 
 ## newly created machine resource specifications
   resource_configuration = {
-    #  Linux.cpu = "1"
-       Linux.memory = "4096"
-    #  Linux.storage = "40"
+    CentosOS.cpu = "${var.cpu}"
+#      "${var.blueprint_id}".memory = "4096"
+    CentosOS.memory = "${var.memory}"
+    CentosOS.storage = "${var.storage}"
   }
 
 # ## provision file, and run deploy-chef-automate.sh
-#   provisioner "file" {
-#     content     = "${data.template_file.deploy-chef-automate.rendered}"
-#       destination = "/tmp/deploy-chef-automate.sh"
-#   }
+  # provisioner "file" {
+  #   content     = "${data.template_file.deploy-chef-automate.rendered}"
+  #     destination = "/tmp/deploy-chef-automate.sh"
+  # }
 
-#   provisioner "remote-exec" {
-#       inline = [
-#           "chmod +x /tmp/deploy-chef-automate.sh",
-#           "sudo /tmp/deploy-chef-automate.sh",
-#       ]
-#   }
+  provisioner "remote-exec" {
+      inline = [
+          "sudo hostname automate-alcon.test",
+          # "chmod +x /tmp/deploy-chef-automate.sh",
+          # "sudo /tmp/deploy-chef-automate.sh",
+      ]
+  }
 
 }
 
