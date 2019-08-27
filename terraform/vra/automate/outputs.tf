@@ -1,6 +1,6 @@
-# output "Alcon-automate_public_ip" {
-#   value = "${vra7_deployment.automate_machine.*.public_ip}"
-# }
+#  output "Alcon-automate_public_ip" {
+#    value = "${vra7_deployment.resource_configuration.CentosOS.ip_address}"
+#  }
 
 # output "a2_admin" {
 #  value = "${data.external.a2_secrets.result["a2_admin"]}"
