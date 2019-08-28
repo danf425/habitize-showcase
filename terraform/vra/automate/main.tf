@@ -15,20 +15,22 @@ resource "vra7_deployment" "automate_machine" {
 
 ## newly created machine resource specifications
   resource_configuration = {
+    CentosOS.description = "${var.deployment_description}"
     CentosOS.cpu = "${var.cpu}"
     CentosOS.memory = "${var.memory}"
     CentosOS.storage = "${var.storage}"
-    CentosOS.ip_address = ""
-#      "${var.blueprint_id}".memory = "4096"
+    CentosOS.ip_address = ""    
+    CentosOS.primary_ip_address = ""
+    CentosOS.name = ""
   }
 
-  wait_timeout = "60"
+  # provisioner "local-exec" {
+  #   command = "sleep 1080"
+  # }
+  
 #getting the connection example from : https://github.com/vmware/terraform-provider-vra7/commit/75d3ada4aa1fc373863bf7ced7a972d1c44beb43
-  connection {
-    host        = "${self.resource_configuration.CentosOS.ip_address}"
-    user        = "vagrant"
-    private_key = "${file("~/.ssh/vagrantdefaultkey")}"
-  }
+  wait_timeout      = "1800"
+
 
   # ## provision file, and run deploy-chef-automate.sh
     # provisioner "file" {
@@ -41,11 +43,17 @@ resource "vra7_deployment" "automate_machine" {
           # "chmod +x /tmp/deploy-chef-automate.sh",
           # "sudo /tmp/deploy-chef-automate.sh",
     ]
+    connection {
+    type        = "ssh"
+    host        = "${self.resource_configuration.CentosOS.name}"
+    user        = "vagrant"
+          # password    = "vagrant"
+          # private_key works with ip address
+          # host        = "${self.resource_configuration.CentosOS.primary_ip_address}"
+    private_key = "${file("~/.ssh/vagrantdefaultkey")}"
+    }
   }
 
-
-
-  
 }
 
 # data "template_file" "deploy-chef-automate" {
