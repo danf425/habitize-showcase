@@ -62,31 +62,11 @@ function Invoke-Unpack {
 # }
 
 
-function Invoke-Build {
-  echo " This is PLAN_CONTEXT"
-  dir $PLAN_CONTEXT\..\Showcase\IBM_iAccess_7.1_Prerequisites
-  # echo "PKG_PREFIX IS HERE LOOK HERE"
-  # echo $pkg_prefix
-  # Copy-Item -Path $PLAN_CONTEXT\..\Showcase -Destination $pkg_prefix
-  # Start-Process msiexec.exe -Wait -ArgumentList '/I $pkg_prefix\Showcase\IBM_iAccess_7.1\image64a\cwbinstall.msi CWBINSTALLTYPE=Custom /qn'
-
-  # Write-Host "Installing Microsoft 2005 C++ Package"
-  # Start-Process "$PLAN_CONTEXT\..\Showcase\IBM_iAccess_7.1_Prerequisites\vcredist_x86.EXE" -ArgumentList "/Q"
-  # # Start-Process "$PLAN_CONTEXT\..\Showcase\IBM_iAccess_7.1\IBM_iAccess_7.1_Prerequisites\vcredist_x64.exe" -ArgumentList "/Q"
-
-  # Write-Host "Installing IBM iAccessclient v7.1"
-  # Start-Process msiexec.exe -Wait -ArgumentList '/I C:\install\IBM_iAccess_7.1\image64a\cwbinstall.msi CWBINSTALLTYPE=Custom /qn '
-  
-  # Write-Host "Installing service pack for IBM iAccess Client v7.1"
-  # Start-Process "C:\install\IBM_iAccess_7.1_SP55797\image64a\setup.exe" -Wait -NoNewWindow -ArgumentList "/S /V`""
-
-  # Write-Host "Installing Showcase"
-  # Start-Process "C:\install\SC\IBM ShowCase 9.0.0.4\Client\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /f1`"C:\install\jmlsetup.iss`""
-}
-
 # There is no default implementation of this callback. Typically you will override
 # this callback to copy the compiled binaries or libraries in
 # $HAB_CACHE_SRC_PATH/$pkg_dirname to $pkg_prefix.
 function Invoke-Install {
-  Invoke-DefaultInstall
+  echo " This is PLAN_CONTEXT"
+  dir $PLAN_CONTEXT\..\ShowcaseApp\IBM_iAccess_7.1_Prerequisites
+  Copy-Item -Path $PLAN_CONTEXT\..\ShowcaseApp -Destination $pkg_prefix -Recurse -Force
 }
