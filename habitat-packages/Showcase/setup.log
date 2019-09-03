@@ -1,0 +1,10 @@
+[InstallShield Silent]
+Version=v7.00
+File=Log File
+[ResponseResult]
+ResultCode=0
+[Application]
+Name=ShowCase
+Version=9
+Company=IBM
+Lang=0409

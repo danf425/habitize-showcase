@@ -1,0 +1,39 @@
+
+$pkg_name="Showcase"
+
+$pkg_origin="alcon"
+
+# Required.
+# Sets the version of the package
+$pkg_version="0.1.0"
+
+$pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
+
+$pkg_license=@("Apache-2.0")
+
+$pkg_shasum="TODO"
+
+$pkg_deps=@()
+
+$pkg_build_deps=@()
+
+
+# The default implementation is that the software specified in $pkg_source is
+# downloaded, checksum-verified, and placed in $HAB_CACHE_SRC_PATH/$pkgfilename,
+# which resolves to a path like /hab/cache/src/filename.zip. You should
+# override this behavior if you need to change how your binary source is
+# downloaded, if you are not downloading any source code at all, or if your are
+# cloning from git. If you do clone a repo from git, you must override
+# Invoke-Verify with an empty implementation.
+function Invoke-Download {
+  Invoke-DefaultDownload
+}
+# The default implementation extracts your zipped source file into
+# $HAB_CACHE_SRC_PATH.
+function Invoke-Unpack {
+  Invoke-DefaultUnpack
+}
+
+function Invoke-Install {
+  Copy-Item -Path $PLAN_CONTEXT\..\ShowcaseApp -Destination $pkg_prefix -Recurse -Force
+}
