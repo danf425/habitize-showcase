@@ -1,6 +1,6 @@
 $pkg_name="Showcase"
 $pkg_origin="alcon"
-$pkg_version="0.1.0"
+$pkg_version="0.1.1"
 $pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 $pkg_license=@("Apache-2.0")
 $pkg_shasum="TODO"
@@ -25,4 +25,5 @@ Write-Host "Installing service pack for IBM iAccess Client v7.1"
  Start-Process "$PLAN_CONTEXT\..\ShowcaseApp\IBM_iAccess_7.1_SP55797\image64a\setup.exe" -Wait -NoNewWindow -ArgumentList "/S /V`""
 Write-Host "Installing Showcase"
  Start-Process "$PLAN_CONTEXT\..\ShowcaseApp\IBM ShowCase 9.0.0.4\Client\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /f1`"$PLAN_CONTEXT\..\showcasesetup.iss`""
+Write-Host "Done"
 }
