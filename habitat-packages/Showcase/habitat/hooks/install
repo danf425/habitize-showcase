@@ -13,7 +13,7 @@ Write-Host "Turning off security warnings for installation files"
   Start-Process msiexec.exe -Wait -ArgumentList '/I {{pkg.path}}\ShowcaseApp\IBM_iAccess_7.1\image64a\cwbinstall.msi CWBINSTALLTYPE=Custom /qn '
   
  Write-Host "Installing service pack for IBM iAccess Client v7.1"
-  Start-Process "{{pkg.path}}\ShowcaseApp\IBM_iAccess_7.1_SP55797\image64a\setup.exe" -Wait -NoNewWindow -ArgumentList "/S /V`""
+  Start-Process "{{pkg.path}}\ShowcaseApp\IBM_iAccess_7.1_SP55797\image64a\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /v`"/qn`""
 
  Write-Host "Installing Showcase"
   Start-Process "{{pkg.path}}\ShowcaseApp\IBM ShowCase 9.0.0.4\Client\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /f1`"{{pkg.svc_config_path}}\showcasesetup.iss`""
