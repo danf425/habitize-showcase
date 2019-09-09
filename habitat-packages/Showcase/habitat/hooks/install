@@ -16,4 +16,4 @@ Write-Host "Turning off security warnings for installation files"
   Start-Process "{{pkg.path}}\ShowcaseApp\IBM_iAccess_7.1_SP55797\image64a\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /v`"/qn`""
 
  Write-Host "Installing Showcase"
-  Start-Process "{{pkg.path}}\ShowcaseApp\IBM ShowCase 9.0.0.4\Client\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /f1`"{{pkg.svc_config_path}}\showcasesetup.iss`""
+  Start-Process "{{pkg.path}}\ShowcaseApp\IBM ShowCase 9.0.0.4\Client\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /f1`"{{pkg.svc_config_install_path}}\showcasesetup.iss`""
