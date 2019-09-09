@@ -1,5 +1,5 @@
 Write-Host "Turning off security warnings for installation files"
- Unblock-File -Path "{{pkg.path}}\IBM ShowCase 9.0.0.3\Client\setup.exe"
+ Unblock-File -Path "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe"
 
 Write-Host "Installing Showcase"
-  Start-Process "{{pkg.path}}\IBM ShowCase 9.0.0.3\Client\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /f1`"{{pkg.svc_config_path}}\showcasesetup.iss`""
+  Start-Process "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /f1`"{{pkg.svc_config_install_path}}\showcasesetup.iss`""
