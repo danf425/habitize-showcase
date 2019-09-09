@@ -6,6 +6,7 @@ $pkg_license=@("Apache-2.0")
 $pkg_shasum="TODO"
 $pkg_deps=@("core/dotnet-35sp1-runtime")
 $pkg_build_deps=@()
+$pkg_source="<insert Artifactory URL here"
 function Invoke-Download {
  Invoke-DefaultDownload
 }
