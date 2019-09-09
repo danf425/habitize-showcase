@@ -15,5 +15,5 @@ function Invoke-Unpack {
  Invoke-DefaultUnpack
 }
 function Invoke-Install {
- Copy-Item -Path C:\Source\Showcase\ShowcaseApp -Destination $pkg_prefix -Recurse -Force
+ Copy-Item -Path C:\Source\Showcase -Destination $pkg_prefix -Recurse -Force
  }
