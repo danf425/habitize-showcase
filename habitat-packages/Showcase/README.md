@@ -12,4 +12,6 @@ Showcase is made up of two parts show case itself and the IBM iAccess "driver" t
 #### TO DO
 create answer file for Showcase patch
 
+set HAB_FEAT_INSTALL_HOOK=true
+
 
