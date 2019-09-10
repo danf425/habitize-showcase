@@ -1,5 +1,5 @@
 $pkg_name="iaccess"
-$pkg_origin="alcon-poc"
+$pkg_origin="conal"
 $pkg_version="7.1"
 $pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 $pkg_license=@("Apache-2.0")

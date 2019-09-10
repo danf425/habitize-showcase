@@ -1,10 +1,10 @@
 $pkg_name="iaccesspatch"
-$pkg_origin="alcon-poc"
+$pkg_origin="conal"
 $pkg_version="55797"
 $pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 $pkg_license=@("Apache-2.0")
 $pkg_shasum="TODO"
-$pkg_deps=@("alcon-poc/iAccess71")
+$pkg_deps=@("conal/iaccess/7.1")
 $pkg_build_deps=@()
 
 function Invoke-Install {
