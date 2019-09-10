@@ -9,6 +9,6 @@ Write-Host "Copying Config Files into c:\"
 
 Write-Host "Updating file permissions for PDOXUSRS.NET"
   $acl = Get-Acl C:\PDOXUSRS.NET
-  $rule = New-Object System.Security.AccessControl.FileSystemAccessRule("Users","FullControl", "ContainerInherit, ObjectInherit", "None", "Allow")
+  $rule = New-Object System.Security.AccessControl.FileSystemAccessRule("Users","FullControl","Allow")
   $acl.AddAccessRule($rule)
   Set-Acl C:\PDOXUSRS.NET $acl
