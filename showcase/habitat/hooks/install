@@ -13,6 +13,18 @@ Write-Host "Updating file permissions for PDOXUSRS.NET"
   $acl.AddAccessRule($rule)
   Set-Acl C:\PDOXUSRS.NET $acl
 
+Write-Host "Checking if Oracle configuration files already exist"
+$tnsnames="C:\Oracle\product\11.2.0\client_1\network\admin\tnsnames.ora"
+$sqlnet="C:\Oracle\product\11.2.0\client_1\network\admin\sqlnet.ora"
+  if ((Test-Path $tnsnames) {
+    Write-Host "$tnsnames already exists. Renaming to tnsnames.bak"
+    Rename-Item -Path $tnsnames -NewName $tnsnames".bak"
+  }
+  if ((Test-Path $sqlnet) {
+    Write-Host "$sqlnet already exists. Renaming to tnsnames.bak"
+    Rename-Item -Path $sqlnet -NewName $sqlnet".bak"
+  }
+  
 Write-Host "Copying Oracle Files into Oracle Directory"
-  Copy-Item -Path "{{pkg.path}}\Configuration\sqlnet.ora" -Destination "C:\Oracle\product\11.2.0\client_1\network" -Force -Recurse
-  Copy-Item -Path "{{pkg.path}}\Configuration\tnsnames.ora" -Destination "C:\Oracle\product\11.2.0\client_1\network" -Force -Recurse
+  Copy-Item -Path "{{pkg.path}}\Configuration\sqlnet.ora" -Destination "C:\Oracle\product\11.2.0\client_1\network\admin" -Force -Recurse
+  Copy-Item -Path "{{pkg.path}}\Configuration\tnsnames.ora" -Destination "C:\Oracle\product\11.2.0\client_1\network\admin" -Force -Recurse
