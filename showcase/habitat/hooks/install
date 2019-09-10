@@ -13,6 +13,41 @@ Write-Host "Updating file permissions for PDOXUSRS.NET"
   $acl.AddAccessRule($rule)
   Set-Acl C:\PDOXUSRS.NET $acl
 
+$dep_compat_key = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers"
+
+if (-Not (Test-Path $dep_compat_key)) {
+  try {
+    Write-Host "Creating $dep_compat_key registry key"
+    New-Item -Path $dep_compat_key -Force | Out-Null
+    New-ItemProperty -Path $dep_compat_key -Name "(Default)" -Value $"(value not set)" -PropertyType String -Force | Out-Null
+    Write-Host "Created $dep_compat_key registry key"
+  }
+  catch {
+    Write-Host "Unable to create $dep_compat_key"
+    Break
+  }
+}
+
+try {
+  Write-Host "Setting DEP & compatibility mode keys and configuring for vista apps ..."
+  Set-ItemProperty -Path $dep_compat_key -Name "C:\Program Files (x86)\IBM\ShowCase\9\bin\vistapro.exe" -Value "DisableNXShowUI WINXPSP3" -Force
+  Set-ItemProperty -Path $dep_compat_key -Name "C:\Program Files (x86)\IBM\ShowCase\9\bin\vista.exe" -Value "DisableNXShowUI WINXPSP3" -Force
+  Write-Host "Set DEP & compatibility mode keys and configured for vista apps."
+}
+catch {
+  Write-Host "Unable to set keys or configure DEP or compatibility mode for vista apps."
+  Break
+}
+
+try {
+  Write-Host "Setting correct short-date pattern"
+  Set-ItemProperty -Path "Microsoft.PowerShell.Core\Registry::HKEY_USERS\.DEFAULT\Control Panel\International" -Name "sShortDate" -Value "yyyy-MM-dd"
+  Write-Host "Set correct short-date pattern"
+}
+catch {
+  Write-Host "Unable to set required short-date pattern"
+}
+
 Write-Host "Checking if Oracle configuration files already exist"
 $tnsnames="C:\Oracle\product\11.2.0\client_1\network\admin\tnsnames.ora"
 $sqlnet="C:\Oracle\product\11.2.0\client_1\network\admin\sqlnet.ora"
@@ -24,7 +59,7 @@ $sqlnet="C:\Oracle\product\11.2.0\client_1\network\admin\sqlnet.ora"
     Write-Host "$sqlnet already exists. Renaming to tnsnames.bak"
     Rename-Item -Path $sqlnet -NewName $sqlnet".bak"
   }
-  
+
 Write-Host "Copying Oracle Files into Oracle Directory"
   Copy-Item -Path "{{pkg.path}}\Configuration\sqlnet.ora" -Destination "C:\Oracle\product\11.2.0\client_1\network\admin" -Force -Recurse
   Copy-Item -Path "{{pkg.path}}\Configuration\tnsnames.ora" -Destination "C:\Oracle\product\11.2.0\client_1\network\admin" -Force -Recurse
