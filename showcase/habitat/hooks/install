@@ -4,11 +4,15 @@ Write-Host "Turning off security warnings for installation files"
 Write-Host "Installing Showcase"
   Start-Process "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /f1`"{{pkg.svc_config_install_path}}\showcasesetup.iss`""
 
-Write-Host "Copying Config Files into c:\"
- Copy-Item -Path "{{pkg.path}}\Configuration\*" -Destination "C:\" -Force -Recurse
+Write-Host "Copying PDOXUSRS.NET File into c:\"
+ Copy-Item -Path "{{pkg.path}}\Configuration\PDOXUSRS.NET" -Destination "C:\" -Force -Recurse
 
 Write-Host "Updating file permissions for PDOXUSRS.NET"
   $acl = Get-Acl C:\PDOXUSRS.NET
   $rule = New-Object System.Security.AccessControl.FileSystemAccessRule("Users","FullControl","Allow")
   $acl.AddAccessRule($rule)
   Set-Acl C:\PDOXUSRS.NET $acl
+
+Write-Host "Copying Oracle Files into Oracle Directory"
+  Copy-Item -Path "{{pkg.path}}\Configuration\sqlnet.ora" -Destination "C:\Oracle\product\11.2.0\client_1\network" -Force -Recurse
+  Copy-Item -Path "{{pkg.path}}\Configuration\tnsnames.ora" -Destination "C:\Oracle\product\11.2.0\client_1\network" -Force -Recurse
