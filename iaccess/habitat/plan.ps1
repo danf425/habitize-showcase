@@ -8,5 +8,6 @@ $pkg_deps=@()
 $pkg_build_deps=@()
 
 function Invoke-Install {
- Copy-Item -Path C:\Source\Showcase\IBM_iAccess_$pkg_version -Destination $pkg_prefix -Recurse -Force
+  Copy-Item -Path C:\Source\Showcase\IBM_iAccess_7.1 -Destination $pkg_prefix -Recurse -Force
+  Copy-Item -Path C:\Source\Showcase\IBM_iAccess_7.1_Prerequisites -Destination $pkg_prefix -Recurse -Force
  }
