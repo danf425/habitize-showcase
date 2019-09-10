@@ -1,5 +1,5 @@
 $pkg_name="showcase"
-$pkg_origin="alcon-poc"
+$pkg_origin="conal"
 $pkg_version="9.0.0.4"
 $pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 $pkg_license=@("Apache-2.0")
