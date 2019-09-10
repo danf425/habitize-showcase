@@ -16,11 +16,11 @@ Write-Host "Updating file permissions for PDOXUSRS.NET"
 Write-Host "Checking if Oracle configuration files already exist"
 $tnsnames="C:\Oracle\product\11.2.0\client_1\network\admin\tnsnames.ora"
 $sqlnet="C:\Oracle\product\11.2.0\client_1\network\admin\sqlnet.ora"
-  if ((Test-Path $tnsnames) {
+  if (Test-Path $tnsnames) {
     Write-Host "$tnsnames already exists. Renaming to tnsnames.bak"
     Rename-Item -Path $tnsnames -NewName $tnsnames".bak"
   }
-  if ((Test-Path $sqlnet) {
+  if (Test-Path $sqlnet) {
     Write-Host "$sqlnet already exists. Renaming to tnsnames.bak"
     Rename-Item -Path $sqlnet -NewName $sqlnet".bak"
   }
