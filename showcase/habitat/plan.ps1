@@ -9,5 +9,4 @@ $pkg_build_deps=@()
 
 function Invoke-Install {
  Copy-Item -Path "C:\Source\Showcase\IBM ShowCase $pkg_version" -Destination $pkg_prefix -Recurse -Force
- Copy-Item -Path "C:\Source\Configuration\" -Destination $pkg_prefix -Recurse -Force
- }
+}
