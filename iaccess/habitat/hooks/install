@@ -1,11 +1,11 @@
 Write-Host "Turning off security warnings for installation files"
- Unblock-File -Path "{{pkg.path}}\IBM_iAccess_{{pkg.version}}\image64a\cwbinstall.msi"
- Unblock-File -Path "{{pkg.path}}\IBM_iAccess_{{pkg.version}}_Prerequisites\vcredist_x86.EXE"
- Unblock-File -Path "{{pkg.path}}\IBM_iAccess_{{pkg.version}}_Prerequisites\vcredist_x64.EXE"
+  Unblock-File -Path "{{pkg.path}}\IBM_iAccess_{{pkg.version}}\image64a\setup.exe"
+  Unblock-File -Path "{{pkg.path}}\IBM_iAccess_{{pkg.version}}_Prerequisites\vcredist_x86.EXE"
+  Unblock-File -Path "{{pkg.path}}\IBM_iAccess_{{pkg.version}}_Prerequisites\vcredist_x64.EXE"
 
- Write-Host "Installing Microsoft 2005 C++ Package"
+Write-Host "Installing Microsoft 2005 C++ Package"
   Start-Process "{{pkg.path}}\IBM_iAccess_{{pkg.version}}_Prerequisites\vcredist_x86.EXE" -Wait -ArgumentList "/Q"
   Start-Process "{{pkg.path}}\IBM_iAccess_{{pkg.version}}_Prerequisites\vcredist_x64.EXE" -Wait -ArgumentList "/Q"
 
- Write-Host "Installing IBM iAccessclient v{{pkg.version}}"
+Write-Host "Installing IBM iAccessclient v{{pkg.version}}"
   Start-Process -FilePath "{{pkg.path}}\IBM_iAccess_{{pkg.version}}\image64a\setup.exe" -ArgumentList "/S /v/qn" -Verb RunAs -Wait
