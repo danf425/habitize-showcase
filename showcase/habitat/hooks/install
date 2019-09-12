@@ -2,7 +2,26 @@ Write-Host "Turning off security warnings for installation files"
 Unblock-File -Path "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe"
 
 Write-Host "Installing Showcase"
-Start-Process "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /f1""{{pkg.svc_config_install_path}}\showcasesetup.iss"""
+
+for ($i=0; $i -le 1; $i++)
+{
+  Write-Host "Set proc"
+  $proc = Start-Process "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe" -NoNewWindow -ArgumentList "/s /f1""{{pkg.svc_config_install_path}}\showcasesetup.iss"""
+
+  # keep track of timeout event
+  Write-Host "Set timeouted"
+  $timeouted = $null # reset any previously set timeout
+
+  # wait up to x seconds for normal termination
+  Write-Host "run proc with time out"
+
+  $proc | Wait-Process -Timeout 90 -ErrorAction SilentlyContinue -ErrorVariable $timeouted
+  Start-Sleep -Seconds 120
+  Write-Host "kill the process"
+  $proc | kill
+  stop-process -name "WerFault"
+}
+
 
 $dep_compat_key = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers"
 
