@@ -33,8 +33,6 @@ Write-Host "Turning off security warnings for installation files"
 Unblock-File -Path "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe"
 
 Write-Host "Installing Showcase"
-Write-Host "Set Flag"
-
 $flag=1
 #took out -NoNewWindow
 Start-Process "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe"  -ArgumentList "/s /f1""{{pkg.svc_config_install_path}}\showcasesetup.iss"""
@@ -46,17 +44,15 @@ while ($flag -eq 1){
     $proc | kill
   	stop-process -name "WerFault"
     Start-Sleep -Seconds 10
-    write-host "Flag is Off"
     $flag=0
     Start-Process "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe" -NoNewWindow -ArgumentList "/s /f1""{{pkg.svc_config_install_path}}\showcasesetup.iss"""
     write-host "Install showcase!!!"
     # $isInstalled = Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | Select-Object DisplayName
     write-host "Wait until Showcase is installed"
-    Start-sleep -seconds 120
-    Write-Host "Force restart in 40 seconds"
+    Start-sleep -seconds 210
+    Write-Host "Restarting computer..."
     Start-Sleep -Seconds 40
     Restart-Computer -Force
-    echo $isInstalled
   }
 }
 
