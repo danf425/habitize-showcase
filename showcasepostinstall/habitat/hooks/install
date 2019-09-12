@@ -1,3 +1,39 @@
+write-host "Dept_compat_key happens here. Are we even reaching this?"
+$dep_compat_key = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers"
+
+if (-Not (Test-Path $dep_compat_key)) {
+  try {
+    Write-Host "Creating $dep_compat_key registry key"
+    New-Item -Path $dep_compat_key -Force | Out-Null
+    New-ItemProperty -Path $dep_compat_key -Name "(Default)" -Value $"(value not set)" -PropertyType String -Force | Out-Null
+    Write-Host "Created $dep_compat_key registry key"
+  }
+  catch {
+    Write-Host "Unable to create $dep_compat_key"
+    Break
+  }
+}
+
+try {
+  Write-Host "Setting DEP & compatibility mode keys and configuring for vista apps ..."
+  Set-ItemProperty -Path $dep_compat_key -Name "C:\Program Files (x86)\IBM\ShowCase\9\bin\vistapro.exe" -Value "DisableNXShowUI WINXPSP3" -Force
+  Set-ItemProperty -Path $dep_compat_key -Name "C:\Program Files (x86)\IBM\ShowCase\9\bin\vista.exe" -Value "DisableNXShowUI WINXPSP3" -Force
+  Write-Host "Set DEP & compatibility mode keys and configured for vista apps."
+}
+catch {
+  Write-Host "Unable to set keys or configure DEP or compatibility mode for vista apps."
+  Break
+}
+
+try {
+  Write-Host "Setting correct short-date pattern"
+  Set-ItemProperty -Path "Microsoft.PowerShell.Core\Registry::HKEY_USERS\.DEFAULT\Control Panel\International" -Name "sShortDate" -Value "yyyy-MM-dd"
+  Write-Host "Set correct short-date pattern"
+}
+catch {
+  Write-Host "Unable to set required short-date pattern"
+}
+
 Write-Host "Copying PDOXUSRS.NET File into c:\"
  Copy-Item -Path "{{pkg.path}}\Configuration\PDOXUSRS.NET" -Destination "C:\" -Force -Recurse
 
