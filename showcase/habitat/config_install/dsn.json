@@ -6,7 +6,7 @@
         "Server": "CHEDC236.alconnet.com\\GBI_PRD_EDC",
         "Authentication": "SQL Server",
         "SQLLogin": null,
-        "DefaultDb": "jbo.IB_AT"
+        "DefaultDb": "IB_AT"
     }
     // ,
     // "DSN2": {

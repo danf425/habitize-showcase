@@ -40,17 +40,23 @@ $flag=1
 Start-Process "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe"  -ArgumentList "/s /f1""{{pkg.svc_config_install_path}}\showcasesetup.iss"""
 
 while ($flag -eq 1){
-  write-host "...I'm Doing Things..."
   if(get-process -name "WerFault" -erroraction 'silentlycontinue'){
-    write-host "...Kill and Restart..."
+    write-host "...Kill, Install, Restart..."
     Start-Sleep -Seconds 10
-    write-host "The pop up w/ the error should pop up... maybe"
     $proc | kill
   	stop-process -name "WerFault"
     Start-Sleep -Seconds 10
     write-host "Flag is Off"
     $flag=0
-    Start-Process "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /f1""{{pkg.svc_config_install_path}}\showcasesetup.iss"""
+    Start-Process "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe" -NoNewWindow -ArgumentList "/s /f1""{{pkg.svc_config_install_path}}\showcasesetup.iss"""
+    write-host "Install showcase!!!"
+    # $isInstalled = Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | Select-Object DisplayName
+    write-host "Wait until Showcase is installed"
+    Start-sleep -seconds 120
+    Write-Host "Force restart in 40 seconds"
+    Start-Sleep -Seconds 40
+    Restart-Computer -Force
+    echo $isInstalled
   }
 }
 
