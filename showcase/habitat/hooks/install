@@ -1,18 +1,60 @@
+Wite-Host "Adding DSN"
+Import-Module Wdac -SkipEditionCheck -verbose
+  $dsn_data = (Get-Content {{pkg.svc_config_install_path}}\dsn.json | ConvertFrom-Json)
+  #Add-OdbcDsn -Name $dsn_data.SQLServer.Name -DriverName $dsn_data.SQLServer.Driver -DsnType "User" -Platform "64-bit" -SetPropertyValue @("Server=$($dsn_data.SQLServer.Server)", "Database=$($dsn_data.SQLServer.DefaultDb)", "Trusted_Connection=Yes",  "Description=$($dsn_data.SQLServer.Description)") -PassThru
+    ForEach ($dsn in $dsn_data.PsObject.Properties.value){
+        if (-NOT (get-odbcdsn -name $dsn.Name)){
+            If ($dsn.Authentication -eq "Windows NT"){
+                Add-OdbcDsn -Name $dsn.Name -DriverName $dsn.Driver -DsnType "User" -Platform "64-bit" -SetPropertyValue @("Server=$($dsn.Server)", "Database=$($dsn.DefaultDb)", "Trusted_Connection=Yes",  "Description=$($dsn.Description)") -PassThru
+            } ElseIf ($dsn.Authentication -eq "SQL Server"){
+            If ($dsn.Driver -eq "IBM i Access ODBC Driver"){
+                    Add-OdbcDsn -Name $dsn.Name -DriverName $dsn.Driver -DsnType "User" -Platform "64-bit" -SetPropertyValue @("System=$($dsn.Server)", "Database=$($dsn.DefaultDb)", "Trusted_Connection=No",  "Description=$($dsn.Description)") -PassThru
+            } Else{
+                    Add-OdbcDsn -Name $dsn.Name -DriverName $dsn.Driver -DsnType "User" -Platform "64-bit" -SetPropertyValue @("Server=$($dsn.Server)", "Database=$($dsn.DefaultDb)", "Trusted_Connection=No",  "Description=$($dsn.Description)") -PassThru
+                }
+            }
+        } else {
+            If ($dsn.Authentication -eq "Windows NT"){
+                Set-OdbcDsn -Name $dsn.Name -DriverName $dsn.Driver -DsnType "User" -Platform "64-bit" -SetPropertyValue @("Server=$($dsn.Server)", "Database=$($dsn.DefaultDb)", "Trusted_Connection=Yes",  "Description=$($dsn.Description)") -PassThru
+            } ElseIf ($dsn.Authentication -eq "SQL Server"){
+            If ($dsn.Driver -eq "IBM i Access ODBC Driver"){
+                    Set-OdbcDsn -Name $dsn.Name -DriverName $dsn.Driver -DsnType "User" -Platform "64-bit" -SetPropertyValue @("System=$($dsn.Server)", "Database=$($dsn.DefaultDb)", "Trusted_Connection=No",  "Description=$($dsn.Description)") -PassThru
+            } Else{
+                    Set-OdbcDsn -Name $dsn.Name -DriverName $dsn.Driver -DsnType "User" -Platform "64-bit" -SetPropertyValue @("Server=$($dsn.Server)", "Database=$($dsn.DefaultDb)", "Trusted_Connection=No",  "Description=$($dsn.Description)") -PassThru
+                }
+            }
+        }
+    }
+Write-Host "DSN have been added"
+
+
+
 Write-Host "Turning off security warnings for installation files"
- Unblock-File -Path "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe"
+Unblock-File -Path "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe"
 
 Write-Host "Installing Showcase"
-  Start-Process "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /f1""{{pkg.svc_config_install_path}}\showcasesetup.iss"""
+Write-Host "Set Flag"
 
-Write-Host "Copying PDOXUSRS.NET File into c:\"
- Copy-Item -Path "{{pkg.path}}\Configuration\PDOXUSRS.NET" -Destination "C:\" -Force -Recurse
+$flag=1
+#took out -NoNewWindow
+Start-Process "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe"  -ArgumentList "/s /f1""{{pkg.svc_config_install_path}}\showcasesetup.iss"""
 
-Write-Host "Updating file permissions for PDOXUSRS.NET"
-  $acl = Get-Acl C:\PDOXUSRS.NET
-  $rule = New-Object System.Security.AccessControl.FileSystemAccessRule("Users","FullControl","Allow")
-  $acl.AddAccessRule($rule)
-  Set-Acl C:\PDOXUSRS.NET $acl
+while ($flag -eq 1){
+  write-host "...I'm Doing Things..."
+  if(get-process -name "WerFault" -erroraction 'silentlycontinue'){
+    write-host "...Kill and Restart..."
+    Start-Sleep -Seconds 10
+    write-host "The pop up w/ the error should pop up... maybe"
+    $proc | kill
+  	stop-process -name "WerFault"
+    Start-Sleep -Seconds 10
+    write-host "Flag is Off"
+    $flag=0
+    Start-Process "{{pkg.path}}\IBM ShowCase {{pkg.version}}\Client\setup.exe" -Wait -NoNewWindow -ArgumentList "/s /f1""{{pkg.svc_config_install_path}}\showcasesetup.iss"""
+  }
+}
 
+write-host "Dept_compat_key happens here. Are we even reaching this?"
 $dep_compat_key = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers"
 
 if (-Not (Test-Path $dep_compat_key)) {
@@ -47,19 +89,3 @@ try {
 catch {
   Write-Host "Unable to set required short-date pattern"
 }
-
-Write-Host "Checking if Oracle configuration files already exist"
-$tnsnames="C:\Oracle\product\11.2.0\client_1\network\admin\tnsnames.ora"
-$sqlnet="C:\Oracle\product\11.2.0\client_1\network\admin\sqlnet.ora"
-  if (Test-Path $tnsnames) {
-    Write-Host "$tnsnames already exists. Renaming to tnsnames.bak"
-    Rename-Item -Path $tnsnames -NewName $tnsnames".bak"
-  }
-  if (Test-Path $sqlnet) {
-    Write-Host "$sqlnet already exists. Renaming to tnsnames.bak"
-    Rename-Item -Path $sqlnet -NewName $sqlnet".bak"
-  }
-
-Write-Host "Copying Oracle Files into Oracle Directory"
-  Copy-Item -Path "{{pkg.path}}\Configuration\sqlnet.ora" -Destination "C:\Oracle\product\11.2.0\client_1\network\admin" -Force -Recurse
-  Copy-Item -Path "{{pkg.path}}\Configuration\tnsnames.ora" -Destination "C:\Oracle\product\11.2.0\client_1\network\admin" -Force -Recurse
