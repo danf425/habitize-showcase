@@ -1,0 +1,118 @@
+write-host "Dept_compat_key happens here. Are we even reaching this?"
+$dep_compat_key = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers"
+
+if (-Not (Test-Path $dep_compat_key)) {
+  try {
+    Write-Host "Creating $dep_compat_key registry key"
+    New-Item -Path $dep_compat_key -Force | Out-Null
+    New-ItemProperty -Path $dep_compat_key -Name "(Default)" -Value $"(value not set)" -PropertyType String -Force | Out-Null
+    Write-Host "Created $dep_compat_key registry key"
+  }
+  catch {
+    Write-Host "Unable to create $dep_compat_key"
+    Break
+  }
+}
+
+try {
+  Write-Host "Setting DEP & compatibility mode keys and configuring for vista apps ..."
+  Set-ItemProperty -Path $dep_compat_key -Name "C:\Program Files (x86)\IBM\ShowCase\9\bin\vistapro.exe" -Value "DisableNXShowUI WINXPSP3" -Force
+  Set-ItemProperty -Path $dep_compat_key -Name "C:\Program Files (x86)\IBM\ShowCase\9\bin\vista.exe" -Value "DisableNXShowUI WINXPSP3" -Force
+  Write-Host "Set DEP & compatibility mode keys and configured for vista apps."
+}
+catch {
+  Write-Host "Unable to set keys or configure DEP or compatibility mode for vista apps."
+  Break
+}
+
+try {
+  Write-Host "Setting correct short-date pattern"
+  Set-ItemProperty -Path "Microsoft.PowerShell.Core\Registry::HKEY_USERS\.DEFAULT\Control Panel\International" -Name "sShortDate" -Value "yyyy-MM-dd"
+  Write-Host "Set correct short-date pattern"
+}
+catch {
+  Write-Host "Unable to set required short-date pattern"
+}
+
+Write-Host "Copying PDOXUSRS.NET File into c:\"
+ Copy-Item -Path "{{pkg.path}}\Configuration\PDOXUSRS.NET" -Destination "C:\" -Force -Recurse
+
+Write-Host "Updating file permissions for PDOXUSRS.NET"
+  $acl = Get-Acl C:\PDOXUSRS.NET
+  $rule = New-Object System.Security.AccessControl.FileSystemAccessRule("Users","FullControl","Allow")
+  $acl.AddAccessRule($rule)
+  Set-Acl C:\PDOXUSRS.NET $acl
+
+Write-Host "Checking if Oracle configuration files already exist"
+$tnsnames="C:\Oracle\product\11.2.0\client_1\network\admin\tnsnames.ora"
+$sqlnet="C:\Oracle\product\11.2.0\client_1\network\admin\sqlnet.ora"
+$currdate=Get-Date -Format "yyyyMMddHHmm"
+
+  if (-Not (Test-Path "C:\Oracle\product\11.2.0\client_1\network\admin")) {
+      try {
+      Write-Host "Creating Oracle folder."
+      New-Item -Path "c:\" -Name "Oracle\product\11.2.0\client_1\network\admin" -ItemType "directory"
+      Write-Host "Created Oracle folder"   
+    }
+      catch {
+      Write-Host "Unable to create C:\Oracle\product\11.2.0\client_1\network\admin"
+      Break
+    }
+  }
+
+  if (Test-Path $tnsnames) {
+    Write-Host "$tnsnames already exists. Renaming to $tnsnames.$currdate"
+    Rename-Item -Path "$tnsnames" -NewName "$tnsnames.$currdate"
+  }
+  if (Test-Path $sqlnet) {
+    Write-Host "$sqlnet already exists. Renaming to $sqlnet.$currdate"
+    Rename-Item -Path $sqlnet -NewName "$sqlnet.$currdate"
+  }
+  
+Write-Host "Copying Oracle Files into Oracle Directory"
+  Copy-Item -Path "{{pkg.path}}\Configuration\sqlnet.ora" -Destination "C:\Oracle\product\11.2.0\client_1\network\admin" -Force -Recurse
+  Copy-Item -Path "{{pkg.path}}\Configuration\tnsnames.ora" -Destination "C:\Oracle\product\11.2.0\client_1\network\admin" -Force -Recurse
+
+Write-Host "Configuring Showcase Excel Add-In"
+
+$excelplugin="C:\Program Files (x86)\Microsoft Office\Office14\Library\ShowCase"
+$showcasesource="C:\Program Files (x86)\IBM\ShowCase\9\bin"
+
+if (-Not (Test-Path "$excelplugin" -PathType Container)) {
+  try {
+  Write-Host "Creating Showcase Office folder."
+  New-Item -Path "c:\" -Name "Program Files (x86)\Microsoft Office\Office14\Library\ShowCase" -ItemType "directory"
+  Write-Host "Created Showcase Office folder"   
+  }
+  catch {
+  Write-Host "Failed to create $excelplugin"
+  Break
+  }
+}
+ 
+Copy-Item -Path "$showcasesource\scxadd32.xll" -Destination "$excelplugin" -Force
+Copy-Item -Path "$showcasesource\scv32enu.dll" -Destination "$excelplugin" -Force
+
+# Create Short in Program files for the Showcase Excel Plug-In
+function set-shortcut {
+
+  param ( [string]$SourceLnk, [string]$DestinationPath )
+      $WshShell = New-Object -comObject WScript.Shell
+      $Shortcut = $WshShell.CreateShortcut($SourceLnk)
+      $Shortcut.TargetPath = $DestinationPath
+      $Shortcut.Save()
+      }
+
+        if (-Not (Test-Path "C:\Program Files (x86)\Microsoft Office\Office14" -PathType Container)) {
+            try {
+            Write-Host "Creating Office folder."
+            New-Item -Path "c:\" -Name "Program Files (x86)\Microsoft Office\Office14" -ItemType "directory"
+            Write-Host "Created Office folder"   
+        }
+            catch {
+            Write-Host "Unable to create C:\Program Files (x86)\Microsoft Office\Office14"
+            Break
+        }
+        }
+
+  set-shortcut "C:\Program Files (x86)\Microsoft Office\Office14\XLSTART.lnk" "C:\Program Files (x86)\Microsoft Office\Office14\Library\ShowCase\scxadd32.xll"
