@@ -1,0 +1,21 @@
+{
+    "DSN1": {
+        "Driver": "SQL Server",
+        "Name": "IBI_AT",
+        "Description": "IBIAT TEST POC",
+        "Server": "CHEDC236.alconnet.com\\GBI_PRD_EDC",
+        "Authentication": "SQL Server",
+        "SQLLogin": null,
+        "DefaultDb": "jbo.IB_AT"
+    }
+    // ,
+    // "DSN2": {
+    //     "Driver": "IBM i Access ODBC Driver",
+    //     "Name": "JDE",
+    //     "Description": "JDE TEST POC",
+    //     "Server": "EDC400D1.ALCONNET.COM",
+    //     "Authentication": "SQL Server",
+    //     "SQLLogin": null,
+    //     "DefaultDb": "QGPL"
+    // }
+}
